@@ -18,18 +18,6 @@ _Below is an example of how you can compile the source code using gcc._
    ```
 2. Execute the output binary:
    ```sh
-    ./frac.out <Number>
+    ./frac.out
    ```
-3. Stream the output to a tex file:
-   ```sh
-   ./frac.out <Number> > my_tex.tex
-   ```
-4. Install tex on the Ubuntu using:
-   ```sh
-   sudo apt update
-   sudo apt install texlive-full -y
-   ```
-5. Produce pdf file from tex file using:
-   ```sh
-   pdflatex my_tex.tex
-   ```
+3. Enter a number between 1 to 10.
